@@ -43,7 +43,7 @@
                 </tr>
             </table>
         <h2>Hubungi Saya</h2>
-        <form action="#" method="post">
+        <form action="#" method="GET">
             @csrf
             <label>Nama:
                 <input type="text" name="nama">
@@ -54,10 +54,10 @@
             <label>Pesan:</label><br>
             <textarea name="pesan" rows="5" cols="25"></textarea><br>
             <button type="submit">Kirim Pesan</button>
-</form>
+        </form>
 <h3>Media Sosial:</h3>
     <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
     <a href="https://github.com" target="_blank">GitHub</a> |
     <a href="https://twitter.com" target="_blank">Twitter</a>
 </body>
-</html
+</html>
